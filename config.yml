@@ -1,4 +1,4 @@
-baseURL: "https://vigil-hayes.github.io
+baseURL: "https://vigil-hayes.github.io"
 title: Morgan Vigil-Hayes
 paginate: 20
 theme: PaperMod
@@ -17,19 +17,16 @@ menu:
         - name: Courses
           url: courses/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
-    author: Name
+    description: "I am an associate professor of computer science in the School of Informatics, Computing, and Cyber Systems at Northern Arizona University. As a computer scientist, my research revolves around characterizing network trace data and social media data to gain insights into the utilization and adaptation of existing networked systems within underserved communities. Leveraging these insights, I design novel networked systems that better align with the specific needs, values, and usage patterns of these communities, aiming to create more inclusive and human-centric technological solutions.
+In particular, my work centers the information needs and practices of rural and tribal communities in North America with the goal of addressing longstanding digital and social inequities.
+
+I teach graduate and undergraduate computer science courses related to computer networks and social computing as well as an Honors seminar course that examines the ethical concerns surrounding emergent digital technologies.
+"
+    author: Morgan Vigil-Hayes
     # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    DateFormat: "January 2023"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -50,44 +47,35 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+          title: Morgan Vigil-Hayes
+          subtitle: "I am an associate professor of computer science in the School of Informatics, Computing, and Cyber Systems at Northern Arizona University. As a computer scientist, my research revolves around characterizing network trace data and social media data to gain insights into the utilization and adaptation of existing networked systems within underserved communities. Leveraging these insights, I design novel networked systems that better align with the specific needs, values, and usage patterns of these communities, aiming to create more inclusive and human-centric technological solutions.
+In particular, my work centers the information needs and practices of rural and tribal communities in North America with the goal of addressing longstanding digital and social inequities.
+
+I teach graduate and undergraduate computer science courses related to computer networks and social computing as well as an honors course that examines the ethical concerns surrounding emergent digital technologies."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Morgan Vigil-Hayes
           buttons:
             - name: Papers
               url: papers/
             - name: Courses
               url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+            - name: Projects
+              url: projects/
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
+          url: mailto:morgan.vigil-hayes@nau.edu
         - name: Location
           url: location/
         - name: Office Hours
           url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=ymJqHu4AAAAJ
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
+          url: https://github.com/CANIS-NAU
 
     assets:
         disableHLJS: true
@@ -96,7 +84,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "M. Vigil-Hayes"
       icon: favicon.ico
       iconHeight: 18
 
