@@ -52,7 +52,7 @@ I teach graduate and undergraduate computer science courses related to computer 
 In particular, my work centers the information needs and practices of rural and tribal communities in North America with the goal of addressing longstanding digital and social inequities.
 
 I teach graduate and undergraduate computer science courses related to computer networks and social computing as well as an honors course that examines the ethical concerns surrounding emergent digital technologies."
-          imageUrl: "picture.jpeg"
+          imageUrl: "mvh_small_square.jpeg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Morgan Vigil-Hayes
@@ -65,7 +65,7 @@ I teach graduate and undergraduate computer science courses related to computer 
               url: projects/
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: Vigil-Hayes_CV_2023-11.pdf
         - name: Email
           url: mailto:morgan.vigil-hayes@nau.edu
         - name: Location
