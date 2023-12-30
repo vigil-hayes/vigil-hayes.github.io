@@ -11,7 +11,7 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
+        - name: Selected Papers
           url: papers/
           weight: 1
         - name: Courses
@@ -57,7 +57,7 @@ I teach graduate and undergraduate computer science courses related to computer 
           imageHeight: 160
           imageTitle: Morgan Vigil-Hayes
           buttons:
-            - name: Papers
+            - name: Selected Papers
               url: papers/
             - name: Courses
               url: courses/
