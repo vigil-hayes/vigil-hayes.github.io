@@ -1,7 +1,9 @@
 baseURL: "https://vigil-hayes.github.io"
 title: Morgan Vigil-Hayes
 paginate: 20
-theme: PaperMod
+theme: 
+    - hugo-embed-pdf-shortcode
+    - PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -65,7 +67,7 @@ I teach graduate and undergraduate computer science courses related to computer 
               url: projects/
     socialIcons:
         - name: CV
-          url: Vigil-Hayes_CV_2023-11.pdf
+          url: https://drive.google.com/file/d/1VcEtaKdmDY0ZWqyRxjXiPXmonj4vwsN5/view?usp=sharing
         - name: Email
           url: mailto:morgan.vigil-hayes@nau.edu
         - name: Location
