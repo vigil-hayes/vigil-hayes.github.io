@@ -8,11 +8,29 @@
     <language>en</language>
     <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigil-hayes.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>computing ethics</title>
+      <link>https://vigil-hayes.github.io/tags/computing-ethics/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/computing-ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cscw</title>
       <link>https://vigil-hayes.github.io/tags/cscw/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vigil-hayes.github.io/tags/cscw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ethics</title>
+      <link>https://vigil-hayes.github.io/tags/ethics/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/ethics/</guid>
       <description></description>
     </item>
     
@@ -31,6 +49,15 @@
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://vigil-hayes.github.io/tags/social-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech ethics</title>
+      <link>https://vigil-hayes.github.io/tags/tech-ethics/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/tech-ethics/</guid>
       <description></description>
     </item>
     
@@ -71,38 +98,182 @@
     </item>
     
     <item>
-      <title>keyword 1</title>
-      <link>https://vigil-hayes.github.io/tags/keyword-1/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>digital divide</title>
+      <link>https://vigil-hayes.github.io/tags/digital-divide/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigil-hayes.github.io/tags/keyword-1/</guid>
+      <guid>https://vigil-hayes.github.io/tags/digital-divide/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>keyword 2</title>
-      <link>https://vigil-hayes.github.io/tags/keyword-2/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>last mile connectivity</title>
+      <link>https://vigil-hayes.github.io/tags/last-mile-connectivity/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigil-hayes.github.io/tags/keyword-2/</guid>
+      <guid>https://vigil-hayes.github.io/tags/last-mile-connectivity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>keyword 4</title>
-      <link>https://vigil-hayes.github.io/tags/keyword-4/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>LoRa</title>
+      <link>https://vigil-hayes.github.io/tags/lora/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigil-hayes.github.io/tags/keyword-4/</guid>
+      <guid>https://vigil-hayes.github.io/tags/lora/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>keyword 3</title>
-      <link>https://vigil-hayes.github.io/tags/keyword-3/</link>
-      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <title>low data rate messaging</title>
+      <link>https://vigil-hayes.github.io/tags/low-data-rate-messaging/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigil-hayes.github.io/tags/keyword-3/</guid>
+      <guid>https://vigil-hayes.github.io/tags/low-data-rate-messaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LPWAN</title>
+      <link>https://vigil-hayes.github.io/tags/lpwan/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/lpwan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network architecture design</title>
+      <link>https://vigil-hayes.github.io/tags/network-architecture-design/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/network-architecture-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preliminary user study</title>
+      <link>https://vigil-hayes.github.io/tags/preliminary-user-study/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/preliminary-user-study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mobile broadband coverage</title>
+      <link>https://vigil-hayes.github.io/tags/mobile-broadband-coverage/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/mobile-broadband-coverage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rural</title>
+      <link>https://vigil-hayes.github.io/tags/rural/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/rural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tribal</title>
+      <link>https://vigil-hayes.github.io/tags/tribal/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/tribal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>community-based participatory research</title>
+      <link>https://vigil-hayes.github.io/tags/community-based-participatory-research/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/community-based-participatory-research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Native American</title>
+      <link>https://vigil-hayes.github.io/tags/native-american/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/native-american/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rural computing</title>
+      <link>https://vigil-hayes.github.io/tags/rural-computing/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/rural-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spectrum</title>
+      <link>https://vigil-hayes.github.io/tags/spectrum/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/spectrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>behavioral health</title>
+      <link>https://vigil-hayes.github.io/tags/behavioral-health/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/behavioral-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mHealth</title>
+      <link>https://vigil-hayes.github.io/tags/mhealth/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/mhealth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indigenous Twitter</title>
+      <link>https://vigil-hayes.github.io/tags/indigenous-twitter/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/indigenous-twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mixed methods</title>
+      <link>https://vigil-hayes.github.io/tags/mixed-methods/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/mixed-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>political discourse</title>
+      <link>https://vigil-hayes.github.io/tags/political-discourse/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/political-discourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social media analysis</title>
+      <link>https://vigil-hayes.github.io/tags/social-media-analysis/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/tags/social-media-analysis/</guid>
       <description></description>
     </item>
     

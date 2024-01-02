@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries | Morgan Vigil-Hayes</title>
+<meta name="keywords" content="digital divide, last mile connectivity, low data rate messaging, LoRa, LPWAN, network architecture design, preliminary user study">
+<meta name="description" content="This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology.">
+<meta name="author" content="Morgan Vigil-Hayes,&amp;thinsp;Md Nazmul Hossain,&amp;thinsp;Alexander Elliott,&amp;thinsp;Elizabeth Belding,&amp;thinsp;Ellen Zegura">
+<link rel="canonical" href="https://vigil-hayes.github.io/papers/paper4/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.90d9ef97b954f39b2afc9946f822aba29cc00f23d990558c1b5db362bbebb951.css" integrity="sha256-kNnvl7lU85sq/JlG&#43;CKropzADyPZkFWMG12zYrvruVE=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://vigil-hayes.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://vigil-hayes.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://vigil-hayes.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://vigil-hayes.github.io/apple-touch-icon.png">
+
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries" />
+<meta property="og:description" content="This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vigil-hayes.github.io/papers/paper4/" />
+<meta property="og:image" content="https://vigil-hayes.github.io/paper4.png" /><meta property="article:section" content="papers" />
+<meta property="article:published_time" content="2022-06-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-29T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://vigil-hayes.github.io/paper4.png" />
+<meta name="twitter:title" content="LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries"/>
+<meta name="twitter:description" content="This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Papers",
+      "item": "https://vigil-hayes.github.io/papers/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries",
+      "item": "https://vigil-hayes.github.io/papers/paper4/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries",
+  "name": "LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries",
+  "description": "This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology.",
+  "keywords": [
+    "digital divide", "last mile connectivity", "low data rate messaging", "LoRa", "LPWAN", "network architecture design", "preliminary user study"
+  ],
+  "articleBody": " Download Paper Abstract Globally, 43% of households lack Internet access, primarily in regions where deployment and/or service costs are prohibitive, including in the least developed countries, rural locations, and regions with high concentrations of ethnic minorities and low-income populations. Unfortunately, this lack of Internet access increasingly equates to a lack of access to essential services, such as healthcare, education, and economic opportunities. In an environment of marginal economics, creative and varied approaches to obtaining access have flourished, including Internet kiosks long popular in the Global South, libraries as public access in the Global North, parking lot use of open WiFi access points, and spectrum-based solutions such as TV whitespace links and citizen band radio. In the near future, local 5G and the deployment of satellite constellations promise yet additional options in the price/performance space for access. In this context we are interested in the following research question: How can the presence of multiple networks, with different price, performance, and geographic reach profiles, be best used in concert to improve access to critical services? We propose that a robust answer to this question bears a holistic, cross-layer examination of new communication paradigms, network architecture innovation, and application design. We make this concrete by running to ground a specific case study of two networks, one high performance yet limited in geographic scope and the other low performance yet pervasive. Specifically our LoRaX (LoRa eXtends the Internet) system combines high bandwidth but non-pervasive Internet access with a low data rate, low power, yet ubiquitious network made possible by IoT developments. By focusing on two networks with extreme differences, we explore a design space that offers users new opportunities for participating in Internet-based services–even when high speed Internet connectivity is intermittent. We also reflect on the generality of the environment and our solution approach for future multi-network settings.\nFigure 3. LoRaX proxy server. Citation Morgan Vigil-Hayes, Md Nazmul Hossain, Alexander K Elliott, Elizabeth M. Belding, and Ellen Zegura. 2022. LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries. In Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS ‘22). Association for Computing Machinery, New York, NY, USA, 195–213. https://doi.org/10.1145/3530190.3534807 @inproceedings{10.1145/3530190.3534807, author = {Vigil-Hayes, Morgan and Hossain, Md Nazmul and Elliott, Alexander K and Belding, Elizabeth M. and Zegura, Ellen}, title = {LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries}, year = {2022}, isbn = {9781450393478}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3530190.3534807}, doi = {10.1145/3530190.3534807}, abstract = {Globally, 43\\% of households lack Internet access, primarily in regions where deployment and/or service costs are prohibitive, including in the least developed countries, rural locations, and regions with high concentrations of ethnic minorities and low-income populations. Unfortunately, this lack of Internet access increasingly equates to a lack of access to essential services, such as healthcare, education, and economic opportunities. In an environment of marginal economics, creative and varied approaches to obtaining access have flourished, including Internet kiosks long popular in the Global South, libraries as public access in the Global North, parking lot use of open WiFi access points, and spectrum-based solutions such as TV whitespace links and citizen band radio. In the near future, local 5G and the deployment of satellite constellations promise yet additional options in the price/performance space for access. In this context we are interested in the following research question: How can the presence of multiple networks, with different price, performance, and geographic reach profiles, be best used in concert to improve access to critical services? We propose that a robust answer to this question bears a holistic, cross-layer examination of new communication paradigms, network architecture innovation, and application design. We make this concrete by running to ground a specific case study of two networks, one high performance yet limited in geographic scope and the other low performance yet pervasive. Specifically our LoRaX (LoRa eXtends the Internet) system combines high bandwidth but non-pervasive Internet access with a low data rate, low power, yet ubiquitious network made possible by IoT developments. By focusing on two networks with extreme differences, we explore a design space that offers users new opportunities for participating in Internet-based services–even when high speed Internet connectivity is intermittent. We also reflect on the generality of the environment and our solution approach for future multi-network settings.}, booktitle = {Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies}, pages = {195–213}, numpages = {19}, keywords = {challenged networking environment, digital divide, last mile connectivity, LPWAN, low data rate messaging, LoRa}, location = {Seattle, WA, USA}, series = {COMPASS '22} } ",
+  "wordCount" : "773",
+  "inLanguage": "en",
+  "image":"https://vigil-hayes.github.io/paper4.png","datePublished": "2022-06-29T00:00:00Z",
+  "dateModified": "2022-06-29T00:00:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Morgan Vigil-Hayes"
+  }, {
+    "@type": "Person",
+    "name": "Md Nazmul Hossain"
+  }, {
+    "@type": "Person",
+    "name": "Alexander Elliott"
+  }, {
+    "@type": "Person",
+    "name": "Elizabeth Belding"
+  }, {
+    "@type": "Person",
+    "name": "Ellen Zegura"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vigil-hayes.github.io/papers/paper4/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Morgan Vigil-Hayes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vigil-hayes.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://vigil-hayes.github.io" accesskey="h" title="M. Vigil-Hayes">
+             
+                <img src="https://vigil-hayes.github.io/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">M. Vigil-Hayes</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://vigil-hayes.github.io/papers/" title="Selected Papers">
+                    <span>Selected Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://vigil-hayes.github.io/courses/" title="Courses">
+                    <span>Courses</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries
+    </h1>
+    <div class="post-meta">&lt;span title=&#39;2022-06-29 00:00:00 &#43;0000 UTC&#39;&gt;June 292912&lt;/span&gt;&amp;nbsp;&amp;middot;&amp;nbsp;Morgan Vigil-Hayes,&amp;amp;thinsp;Md Nazmul Hossain,&amp;amp;thinsp;Alexander Elliott,&amp;amp;thinsp;Elizabeth Belding,&amp;amp;thinsp;Ellen Zegura&nbsp;&middot;&nbsp;<a href="https://doi.org/10.1145/3530190.3534807" rel="noopener noreferrer" target="_blank">COMPASS &#39;22: Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h5 id="download">Download</h5>
+<ul>
+<li><a href="VHE&#43;2022.pdf">Paper</a>
+</li>
+</ul>
+<hr>
+<h5 id="abstract">Abstract</h5>
+<p>Globally, 43% of households lack Internet access, primarily in regions where deployment and/or service costs are prohibitive, including in the least developed countries, rural locations, and regions with high concentrations of ethnic minorities and low-income populations. Unfortunately, this lack of Internet access increasingly equates to a lack of access to essential services, such as healthcare, education, and economic opportunities. In an environment of marginal economics, creative and varied approaches to obtaining access have flourished, including Internet kiosks long popular in the Global South, libraries as public access in the Global North, parking lot use of open WiFi access points, and spectrum-based solutions such as TV whitespace links and citizen band radio. In the near future, local 5G and the deployment of satellite constellations promise yet additional options in the price/performance space for access. In this context we are interested in the following research question: How can the presence of multiple networks, with different price, performance, and geographic reach profiles, be best used in concert to improve access to critical services? We propose that a robust answer to this question bears a holistic, cross-layer examination of new communication paradigms, network architecture innovation, and application design. We make this concrete by running to ground a specific case study of two networks, one high performance yet limited in geographic scope and the other low performance yet pervasive. Specifically our LoRaX (LoRa eXtends the Internet) system combines high bandwidth but non-pervasive Internet access with a low data rate, low power, yet ubiquitious network made possible by IoT developments. By focusing on two networks with extreme differences, we explore a design space that offers users new opportunities for participating in Internet-based services–even when high speed Internet connectivity is intermittent. We also reflect on the generality of the environment and our solution approach for future multi-network settings.</p>
+<hr>
+<h4 id="figure-3-lorax-proxy-server">Figure 3. LoRaX proxy server.</h4>
+<p><img loading="lazy" src="paper4.png" alt=""  />
+</p>
+<hr>
+<h5 id="citation">Citation</h5>
+<p>Morgan Vigil-Hayes, Md Nazmul Hossain, Alexander K Elliott, Elizabeth M. Belding, and Ellen Zegura. 2022. LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries. In Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS &lsquo;22). Association for Computing Machinery, New York, NY, USA, 195–213. <a href="https://doi.org/10.1145/3530190.3534807" target="_blank">https://doi.org/10.1145/3530190.3534807</a>
+</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-BibTeX" data-lang="BibTeX"><span style="display:flex;"><span><span style="color:#0a0;text-decoration:underline">@inproceedings</span>{10.1145/3530190.3534807,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">author</span> = <span style="color:#a50">{Vigil-Hayes, Morgan and Hossain, Md Nazmul and Elliott, Alexander K and Belding, Elizabeth M. and Zegura, Ellen}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">title</span> = <span style="color:#a50">{LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">year</span> = <span style="color:#a50">{2022}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">isbn</span> = <span style="color:#a50">{9781450393478}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">publisher</span> = <span style="color:#a50">{Association for Computing Machinery}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">address</span> = <span style="color:#a50">{New York, NY, USA}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">url</span> = <span style="color:#a50">{https://doi.org/10.1145/3530190.3534807}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">doi</span> = <span style="color:#a50">{10.1145/3530190.3534807}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">abstract</span> = <span style="color:#a50">{Globally, 43\% of households lack Internet access, primarily in regions where deployment and/or service costs are prohibitive, including in the least developed countries, rural locations, and regions with high concentrations of ethnic minorities and low-income populations. Unfortunately, this lack of Internet access increasingly equates to a lack of access to essential services, such as healthcare, education, and economic opportunities. In an environment of marginal economics, creative and varied approaches to obtaining access have flourished, including Internet kiosks long popular in the Global South, libraries as public access in the Global North, parking lot use of open WiFi access points, and spectrum-based solutions such as TV whitespace links and citizen band radio. In the near future, local 5G and the deployment of satellite constellations promise yet additional options in the price/performance space for access. In this context we are interested in the following research question: How can the presence of multiple networks, with different price, performance, and geographic reach profiles, be best used in concert to improve access to critical services? We propose that a robust answer to this question bears a holistic, cross-layer examination of new communication paradigms, network architecture innovation, and application design. We make this concrete by running to ground a specific case study of two networks, one high performance yet limited in geographic scope and the other low performance yet pervasive. Specifically our LoRaX (LoRa eXtends the Internet) system combines high bandwidth but non-pervasive Internet access with a low data rate, low power, yet ubiquitious network made possible by IoT developments. By focusing on two networks with extreme differences, we explore a design space that offers users new opportunities for participating in Internet-based services–even when high speed Internet connectivity is intermittent. We also reflect on the generality of the environment and our solution approach for future multi-network settings.}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">booktitle</span> = <span style="color:#a50">{Proceedings of the 5th ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">pages</span> = <span style="color:#a50">{195–213}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">numpages</span> = <span style="color:#a50">{19}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">keywords</span> = <span style="color:#a50">{challenged networking environment, digital divide, last mile connectivity, LPWAN, low data rate messaging, LoRa}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">location</span> = <span style="color:#a50">{Seattle, WA, USA}</span>,
+</span></span><span style="display:flex;"><span><span style="color:#1e90ff">series</span> = <span style="color:#a50">{COMPASS &#39;22}</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://vigil-hayes.github.io/tags/digital-divide/">digital divide</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/last-mile-connectivity/">last mile connectivity</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/low-data-rate-messaging/">low data rate messaging</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/lora/">LoRa</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/lpwan/">LPWAN</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/network-architecture-design/">network architecture design</a></li>
+      <li><a href="https://vigil-hayes.github.io/tags/preliminary-user-study/">preliminary user study</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    &copy; 2024 Morgan Vigil-Hayes
+    <span>
+    &middot;  Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

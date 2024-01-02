@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ethics on Morgan Vigil-Hayes</title>
+    <link>https://vigil-hayes.github.io/tags/ethics/</link>
+    <description>Recent content in ethics on Morgan Vigil-Hayes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigil-hayes.github.io/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyber Ethics</title>
+      <link>https://vigil-hayes.github.io/courses/course3/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/courses/course3/</guid>
+      <description>This undergraduate seminar explores emergent computational technologies through the lens of different ethical theories.</description>
+    </item>
+    
+  </channel>
+</rss>

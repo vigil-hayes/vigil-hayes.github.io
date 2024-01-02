@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://vigil-hayes.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cyber Ethics</title>
+      <link>https://vigil-hayes.github.io/courses/course3/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/courses/course3/</guid>
+      <description>This undergraduate seminar explores emergent computational technologies through the lens of different ethical theories.</description>
+    </item>
+    
+    <item>
       <title>Social Computing</title>
       <link>https://vigil-hayes.github.io/courses/course2/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
@@ -26,21 +35,57 @@
     </item>
     
     <item>
-      <title>Paper Title 2</title>
-      <link>https://vigil-hayes.github.io/papers/paper2/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <title>LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries</title>
+      <link>https://vigil-hayes.github.io/papers/paper4/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://vigil-hayes.github.io/papers/paper2/</guid>
-      <description>This paper shows other things. Published in Journal Name, 2015.</description>
+      <guid>https://vigil-hayes.github.io/papers/paper4/</guid>
+      <description>This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology.</description>
     </item>
     
     <item>
-      <title>Paper Title 1</title>
+      <title>A tale of three datasets: characterizing mobile broadband access in the U.S.</title>
+      <link>https://vigil-hayes.github.io/papers/paper2/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/papers/paper2/</guid>
+      <description>This paper examines mobile broadband performance data from a measurement campaign in Northern New Mexico.</description>
+    </item>
+    
+    <item>
+      <title>As a Squash Plant Grows: Social Textures of Sparse Internet Connectivity in Rural and Tribal Communities</title>
+      <link>https://vigil-hayes.github.io/papers/paper5/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/papers/paper5/</guid>
+      <description>This paper describes a participatory action research project between several academic institutions and the REDINet network in northern New Mexico.</description>
+    </item>
+    
+    <item>
+      <title>Integrating Cultural Relevance into a Behavioral mHealth Intervention for Native American Youth</title>
       <link>https://vigil-hayes.github.io/papers/paper1/</link>
-      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://vigil-hayes.github.io/papers/paper1/</guid>
-      <description>This paper shows things. Published in Journal Name, 2012.</description>
+      <description>This paper presents findings from participatory design of an mHealth system for Native American youth. Published in CSCW 2021.</description>
+    </item>
+    
+    <item>
+      <title>Complex, Contemporary, and Unconventional: Characterizing the Tweets of the #NativeVote Movement and Native American Candidates through the 2018 U.S. Midterm Elections</title>
+      <link>https://vigil-hayes.github.io/papers/paper3/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/papers/paper3/</guid>
+      <description>This paper examines Tweets by and about Native American political candidates during the US 2018 Midterm election cycle.</description>
+    </item>
+    
+    <item>
+      <title>#Indigenous: Tracking the Connective Actions of Native American Advocates on Twitter</title>
+      <link>https://vigil-hayes.github.io/papers/paper6/</link>
+      <pubDate>Sat, 25 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/papers/paper6/</guid>
+      <description>This paper examines how Native American activists and institutions use Twitter to facilitate connective action during the US 2016 presidential primary election period.</description>
     </item>
     
     
@@ -60,6 +105,15 @@
       
       <guid>https://vigil-hayes.github.io/officehours/</guid>
       <description>Schedule and location for office hours.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://vigil-hayes.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/projects/</guid>
+      <description>Overview of current funded projects.</description>
     </item>
     
   </channel>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>network architecture design on Morgan Vigil-Hayes</title>
+    <link>https://vigil-hayes.github.io/tags/network-architecture-design/</link>
+    <description>Recent content in network architecture design on Morgan Vigil-Hayes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://vigil-hayes.github.io/tags/network-architecture-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries</title>
+      <link>https://vigil-hayes.github.io/papers/paper4/</link>
+      <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://vigil-hayes.github.io/papers/paper4/</guid>
+      <description>This paper prototypes the design of a novel network architecture that extends access to Internet services using multihop Low-powered Radio (LoRa) technology.</description>
+    </item>
+    
+  </channel>
+</rss>

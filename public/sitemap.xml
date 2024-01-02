@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://vigil-hayes.github.io/tags/computing-ethics/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://vigil-hayes.github.io/courses/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/tags/cscw/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/courses/course3/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/ethics/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/</loc>
@@ -21,6 +30,9 @@
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/tags/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/tech-ethics/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/data/</loc>
@@ -41,31 +53,93 @@
     <loc>https://vigil-hayes.github.io/tags/keyword-7/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vigil-hayes.github.io/tags/keyword-1/</loc>
-    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+    <loc>https://vigil-hayes.github.io/tags/digital-divide/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vigil-hayes.github.io/tags/keyword-2/</loc>
-    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+    <loc>https://vigil-hayes.github.io/tags/last-mile-connectivity/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vigil-hayes.github.io/tags/keyword-4/</loc>
-    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+    <loc>https://vigil-hayes.github.io/tags/lora/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vigil-hayes.github.io/papers/paper2/</loc>
-    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+    <loc>https://vigil-hayes.github.io/papers/paper4/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/low-data-rate-messaging/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/lpwan/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/network-architecture-design/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/papers/</loc>
-    <lastmod>2015-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://vigil-hayes.github.io/tags/keyword-3/</loc>
-    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+    <loc>https://vigil-hayes.github.io/tags/preliminary-user-study/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/papers/paper2/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/mobile-broadband-coverage/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/rural/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/tribal/</loc>
+    <lastmod>2022-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/papers/paper5/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/community-based-participatory-research/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/native-american/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/rural-computing/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/spectrum/</loc>
+    <lastmod>2021-07-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/behavioral-health/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/papers/paper1/</loc>
-    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/mhealth/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/papers/paper3/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/indigenous-twitter/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/mixed-methods/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/political-discourse/</loc>
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/papers/paper6/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/tags/social-media-analysis/</loc>
+    <lastmod>2017-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://vigil-hayes.github.io/archive/</loc>
   </url><url>
     <loc>https://vigil-hayes.github.io/location/</loc>
   </url><url>
     <loc>https://vigil-hayes.github.io/officehours/</loc>
+  </url><url>
+    <loc>https://vigil-hayes.github.io/projects/</loc>
   </url>
 </urlset>
