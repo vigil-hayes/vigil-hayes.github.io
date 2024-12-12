@@ -5,9 +5,9 @@ description: "Schedule and location for office hours."
 ---
 
 --- 
-#### Schedule (Spring 2024)
+#### Schedule (Spring 2025)
 
-Office hours take place at HON 108 on Tuesdays from 9-11am. 
+Office hours take place at HON 108 on Wednesdays from 10-12pm. 
 
 I am also happy to schedule a 15 minute ofice hour meeting by appointment if this time does not work for you, but please be aware that my calendar fills up quickly and I will need at least 3-5 days of prior notice to be able to find a time that will work.  
 
