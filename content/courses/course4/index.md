@@ -7,7 +7,7 @@ description: "This course introduces students to the fundamental methodologies u
 summary: "This course introduces students to the fundamental methodologies used to understand and frame complex systems and networks; characterize networks using a variety of metrics and methodologies;
  and model networks."
 cover:
-    image: "course3.png"
+    image: "course4.png"
     alt: "Network Analysis."
     relative: false
 editPost:
